@@ -30,8 +30,6 @@ def is_even(z):
 def is_odd(z):
     return not is_even(z)
 
-
-
 print(is_even(0))
 print(is_odd(0))
 
@@ -40,5 +38,5 @@ def fib(x):
 		return 1
 	else:
 		return fib(x-1) + fib(x-2)
-		
+
 print(fib(4))
